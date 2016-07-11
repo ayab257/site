@@ -3,13 +3,15 @@
 	overflow: hidden;
 }
 body{
-	background-color: black;	
+	/*background-color: black;*/	
+	
 }
 #wrapper{
 	margin: 0 auto;
 	background-color: white;
 	width: 960px;
 	height: 100%;
+	
 }
 #contactNumber{
 	float:right;
@@ -49,6 +51,7 @@ body{
 #articels{
 	height: 35%;
 	width: 100%;
+	margin-top: 2%;
 }
 .articel{
 	width: 30%;
@@ -61,7 +64,7 @@ body{
 	height: 20%;
 }
 .preview{
-	 margin-top: 25%;
+	 margin-top: 35%;
 	 width: 85%;
 }
 .articel ul {
@@ -81,18 +84,25 @@ body{
     top: 0.9em;
     position: relative;
 }
-footer{
-	background-color: #EDEDED;
+/*footer{
 	height: 17%;
 	width: 100%;
+	padding-top: 10%;*/
 }
 footer h3{
 	color:#6E6E6E;
 }
 
 #mainFooter{
-	padding: 4%;
-	height: 50%;
+	padding-left: 4%;
+	margin-top: 25%;
+	height: 22%;
+	background-color: #EDEDED;
+	border-top: 1px solid #6E6E6E;
+
+}
+#footerCopy{
+	
 }
 .footerInfo{
 	float:left;
@@ -122,9 +132,9 @@ footer h3{
 }
 #footerCopy{
 	width: 100%;
-	height: 3%;
+	height: 5%;
 	border-top: 1px solid #6E6E6E;
-	
+	background-color: #EDEDED;	
 }
 #containFooter{
 	padding-left: 4%;
